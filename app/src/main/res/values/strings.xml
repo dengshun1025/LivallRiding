@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Livall</string>
+    <!--loginActivity-->
+    <string name="txt_area">"    国家地区"</string>
+    <string name="txt_areaId">"中国+86    "</string>
+    <string name="edit_user">"请输入用户名"</string>
+    <string name="edit_pwd">"请输入密码"</string>
+    <string name="btn_login">"登录"</string>
+
+    <!--MainActivity-->
+    <string name="rb_my">"  我"</string>
+    <string name="rb_message">消息</string>
+    <string name="rb_riding">骑行</string>
+    <string name="rb_laiba">历史</string>
+    <string name="rb_challenge">装备</string>
+    <!--messageFragment-->
+    <string name="txt_message_title">消息</string>
+    <string name="txt_message">验证消息</string>
+    <string name="txt_friend">我的好友</string>
+    <string name="txt_group">我的群组</string>
+    <!--rideFragment-->
+    <string name="ride">Riding</string>
+    <string name="btn_riding">开始骑行</string>
+    <!--MyFragment-->
+    <string name="btn_my_login">" 登录 "</string>
+    <string name="txt_ride_record">骑行统计</string>
+    <string name="txt_mall">商城</string>
+    <string name="txt_time_record">时长 mm:ss</string>
+    <string name="txt_my_mile">里程 km</string>
+    <string name="txt_my_frequency">卡路里 kcal</string>
+    <string name="txt_emergency_contact">紧急联系人</string>
+    <string name="txt_offline_map">离线地图</string>
+
+    <!--menu_message-->
+    <string name="menu_add_friend">添加好友</string>
+    <string name="menu_create_group">创建群组</string>
+
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backGround"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dengshun.test.Activity.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/radioGroupBackGround">
+
+        <RelativeLayout
+            android:id="@+id/rl_challenge"
+            style="@style/rl_bottom_menu">
+
+            <ImageView
+                android:id="@+id/img_challenge"
+                style="@style/img_bottom_menu"
+                android:src="@drawable/challenge_drawable" />
+
+            <TextView
+                style="@style/txt_bottom_menu"
+                android:id="@+id/txt_challenge"
+                android:text="@string/rb_challenge"
+                android:layout_below="@id/img_challenge" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_laiba"
+            style="@style/rl_bottom_menu">
+
+            <ImageView
+                android:id="@+id/img_laiba"
+                style="@style/img_bottom_menu"
+                android:src="@drawable/laiba_drawable" />
+
+            <TextView
+                style="@style/txt_bottom_menu"
+                android:id="@+id/txt_laiba"
+                android:text="@string/rb_laiba"
+                android:layout_below="@id/img_laiba" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_ride"
+            style="@style/rl_bottom_menu">
+
+            <ImageView
+                android:id="@+id/img_ride"
+                style="@style/img_bottom_menu"
+                android:src="@drawable/ride_drawable" />
+
+            <TextView
+                style="@style/txt_bottom_menu"
+                android:id="@+id/txt_ride"
+                android:text="@string/rb_riding"
+                android:layout_below="@id/img_ride" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_message"
+            style="@style/rl_bottom_menu">
+
+            <ImageView
+                android:id="@+id/img_message"
+                style="@style/img_bottom_menu"
+                android:src="@drawable/message_drawable" />
+
+            <TextView
+                style="@style/txt_bottom_menu"
+                android:id="@+id/txt_message"
+                android:text="@string/rb_message"
+                android:layout_below="@id/img_message" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_my"
+            style="@style/rl_bottom_menu">
+
+            <ImageView
+                android:id="@+id/img_my"
+                style="@style/img_bottom_menu"
+                android:src="@drawable/my_drawable" />
+
+            <TextView
+                style="@style/txt_bottom_menu"
+                android:id="@+id/txt_my"
+                android:text="@string/rb_my"
+                android:layout_below="@id/img_my" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--<RadioGroup-->
+        <!--android:id="@+id/rg_menu"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@color/radioGroupBackGround"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_challenge"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:drawableTop="@drawable/challenge_drawable"-->
+            <!--android:text="@string/rb_challenge"-->
+            <!--android:layout_height="match_parent" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_laiba"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:drawableTop="@drawable/laiba_drawable"-->
+            <!--android:text="@string/rb_laiba"-->
+            <!--android:layout_height="match_parent" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_riding"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:drawableTop="@drawable/ride_drawable"-->
+            <!--android:text="@string/rb_riding"/>-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_message"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:drawableTop="@drawable/message_drawable"-->
+            <!--android:text="@string/rb_message"-->
+            <!--android:layout_height="match_parent" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rb_my"-->
+            <!--style="@style/RadioButton"-->
+            <!--android:drawableTop="@drawable/my_drawable"-->
+            <!--android:text="@string/rb_my"-->
+            <!--android:layout_height="match_parent" />-->
+
+    <!--</RadioGroup>-->
+
+    <FrameLayout
+        android:id="@+id/main_fl_content"
+        android:layout_above="@id/ll_bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>

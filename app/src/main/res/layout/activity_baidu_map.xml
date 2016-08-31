@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dengshun.test.Activity.BaiduMapActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/map_view_baidu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:text="定位"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/btn_loc_marginLeft"
+        android:layout_marginBottom="@dimen/btn_loc_marginBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

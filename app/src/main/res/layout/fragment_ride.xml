@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:tools="http://schemas.android.com/tools"
+         android:background="@color/backGround"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         tools:context="Fragment.RideFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_riding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ride"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="32sp"/>
+
+    <Button
+        android:id="@+id/btn_riding"
+        android:text="@string/btn_riding"
+        android:textSize="@dimen/btn_riding_txtSize"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/btn_riding_marginBottom"
+        android:layout_marginLeft="@dimen/btn_riding_paddingLeft"
+        android:layout_marginRight="@dimen/btn_riding_paddingRight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_riding_height" />
+
+</FrameLayout>

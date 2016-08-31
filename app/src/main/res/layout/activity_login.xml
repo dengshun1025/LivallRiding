@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backGround"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Activity.LoginActivity">
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="@dimen/btn_exit_top"
+        android:layout_marginRight="@dimen/btn_exit_right"
+        android:background="@mipmap/llp_close_btn"
+        android:layout_width="@dimen/btn_exit_width"
+        android:layout_height="@dimen/btn_exit_height" />
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:src="@mipmap/logo_img"
+        android:layout_marginTop="@dimen/img_icon_top"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/img_icon_top"
+        android:layout_marginLeft="@dimen/rl_left"
+        android:layout_marginRight="@dimen/rl_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:background="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:stretchColumns="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/tableRow_one"
+                    android:layout_height="@dimen/table1_height">
+                    <TextView
+                        android:id="@+id/txt_area"
+                        android:text="@string/txt_area"
+                        android:textColor="@color/gray"
+                        android:gravity="center|left"
+                        android:layout_span="4"
+                        android:layout_height="@dimen/table_row_height"/>
+                    <TextView
+                        android:id="@+id/txt_areaId"
+                        android:text="@string/txt_areaId"
+                        android:textColor="@color/gray"
+                        android:gravity="center|right"
+                        android:layout_height="@dimen/table_row_height"/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow_Two">
+                    <ImageView
+                        android:src="@mipmap/llp_hsp_img"
+                        android:layout_span="5"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="@dimen/table1_height">
+                    <ImageView
+                        android:id="@+id/img_user"
+                        android:src="@mipmap/llp_account_icon_img"
+                        android:layout_span="1"
+                        android:layout_marginLeft="@dimen/img_user_left"
+                        android:layout_gravity="center"
+                        />
+
+                    <ImageView
+                        android:id="@+id/img_userLine"
+                        android:src="@mipmap/llp_nsp_img"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/img_line_left"
+                    />
+                    <EditText
+                        android:id="@+id/edit_user"
+                        android:hint="@string/edit_user"
+                        android:background="@mipmap/llp_login_bg_img"
+                        android:layout_span="3"
+                        android:layout_height="@dimen/table_row_height"
+                        android:layout_width="wrap_content"
+                        />
+                </TableRow>
+                <TableRow>
+                    <ImageView
+                        android:src="@mipmap/llp_hsp_img"
+                        android:layout_span="5"/>
+                </TableRow>
+                <TableRow
+                    android:layout_height="@dimen/table1_height">
+                    <ImageView
+                        android:id="@+id/img_pwd"
+                        android:src="@mipmap/llp_pwd_icon_img"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/img_pwd_left"
+                        android:layout_span="1"
+                        />
+                    <ImageView
+                        android:id="@+id/img_pwdLine"
+                        android:src="@mipmap/llp_nsp_img"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/img_line_left"
+                        />
+                    <EditText
+                        android:id="@+id/edit_pwd"
+                        android:hint="@string/edit_pwd"
+                        android:background="@mipmap/llp_login_bg_img"
+                        android:inputType="textPassword"
+                        android:layout_span="3"
+                        android:layout_height="@dimen/table_row_height"
+                        android:layout_width="wrap_content"
+                        />
+                </TableRow>
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:background="@mipmap/llp_login_btn"
+                android:text="@string/btn_login"
+                android:textSize="18dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/img_icon_top"
+                android:layout_below="@+id/tableLayout1"
+                android:layout_height="@dimen/img_login_height"
+                android:layout_width="match_parent" />
+
+            <TextView
+                android:id="@+id/txt_register"
+                android:text="注册"
+                android:textColor="@color/blue"
+                android:layout_alignLeft="@+id/btn_login"
+                android:layout_below="@+id/btn_login"
+                android:layout_marginTop="@dimen/img_icon_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/txt_forgetPwd"
+                android:text="忘记密码?"
+                android:textColor="@color/blue"
+                android:layout_alignRight="@+id/btn_login"
+                android:layout_below="@+id/btn_login"
+                android:layout_marginTop="@dimen/img_icon_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:gravity="center|bottom"
+        android:layout_marginBottom="@dimen/btn_exit_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:gravity="center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/txt_email"
+                    android:text="邮箱登录"
+                    android:textColor="@color/blue"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:gravity="center"
+                android:layout_marginTop="@dimen/btn_exit_top">
+                <ImageView
+                    android:src="@mipmap/llp_rsp_img"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/btn_add_right"
+                    android:layout_width="87dp"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/txt_other"
+                    android:text="其他方式"
+                    android:textSize="12sp"
+                    android:textColor="@color/gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:src="@mipmap/llp_rsp_img"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/btn_add_right"
+                    android:layout_width="87dp"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="12dp">
+                <ImageView
+                    android:id="@+id/img_weChat"
+                    android:src="@mipmap/llp_wechat_btn"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:id="@+id/img_qq"
+                    android:src="@mipmap/llp_qq_btn"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:id="@+id/img_sina"
+                    android:src="@mipmap/llp_sina_btn"
+                    android:layout_weight="1" />
+            </TableRow>
+        </TableLayout>
+    </RelativeLayout>
+
+</LinearLayout>

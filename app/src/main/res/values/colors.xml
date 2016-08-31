@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backGround">#eeeeee</color>
+    <color name="gray">#999999</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#50d2fa</color>
+    <color name="green">#00ff00</color>
+    <color name="light_gray">#e4e5e9</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lightBlue">#47dde8</color>
+    <color name="my_login_bg">#88ffffff</color>
+    <color name="radioGroupBackGround">#FFFEFEFE</color>
+</resources>
