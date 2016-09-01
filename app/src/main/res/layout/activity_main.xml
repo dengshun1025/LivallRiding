@@ -96,6 +96,7 @@
         </RelativeLayout>
 
     </LinearLayout>
+
     <!--<RadioGroup-->
         <!--android:id="@+id/rg_menu"-->
         <!--android:layout_width="match_parent"-->

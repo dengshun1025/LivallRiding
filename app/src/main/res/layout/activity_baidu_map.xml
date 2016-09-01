@@ -13,8 +13,9 @@
 
     <Button
         android:id="@+id/btn_location"
-        android:text="定位"
+        android:text="@string/location"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/btn_loc_marginLeft"
         android:layout_marginLeft="@dimen/btn_loc_marginLeft"
         android:layout_marginBottom="@dimen/btn_loc_marginBottom"
         android:layout_width="wrap_content"

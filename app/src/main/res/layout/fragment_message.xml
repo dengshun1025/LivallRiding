@@ -16,6 +16,7 @@
 
         <Button
             android:background="@color/white"
+            android:layout_marginEnd="@dimen/btn_add_right"
             android:layout_marginRight="@dimen/btn_add_right"
             android:layout_width="@dimen/btn_add_width"
             android:layout_height="wrap_content"/>
@@ -31,6 +32,7 @@
         <Button
             android:id="@+id/btn_add_friend"
             android:background="@mipmap/lmp_session_friend_img"
+            android:layout_marginEnd="@dimen/btn_add_right"
             android:layout_marginRight="@dimen/btn_add_right"
             android:layout_width="@dimen/btn_add_width"
             android:layout_height="wrap_content"/>
@@ -38,6 +40,7 @@
 
     <ImageView
         android:src="@mipmap/lmp_home_h_one_splite_img"
+        android:contentDescription="@string/app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
