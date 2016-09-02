@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".Activity.LoginActivity">
+    tools:context=".Demo.Activity.LoginActivity">
 
     <Button
         android:id="@+id/btn_exit"

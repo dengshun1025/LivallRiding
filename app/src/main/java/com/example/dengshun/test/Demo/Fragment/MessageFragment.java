@@ -1,4 +1,4 @@
-package Fragment;
+package com.example.dengshun.test.Demo.Fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -13,8 +13,8 @@ import android.widget.PopupWindow;
 import com.example.dengshun.test.R;
 import java.util.ArrayList;
 import java.util.List;
-import Adapter.MyListAdapter;
-import Adapter.MyListItem;
+import com.example.dengshun.test.Demo.Adapter.MyListAdapter;
+import com.example.dengshun.test.Demo.Adapter.MyListItem;
 
 /**
  *  消息页面。

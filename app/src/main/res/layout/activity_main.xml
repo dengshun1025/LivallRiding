@@ -4,7 +4,7 @@
     android:background="@color/backGround"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dengshun.test.Activity.MainActivity">
+    tools:context=".Demo.Activity.MainActivity">
 
 
     <LinearLayout

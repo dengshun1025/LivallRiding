@@ -1,4 +1,4 @@
-package SQLite;
+package com.example.dengshun.test.Demo.SQLite;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

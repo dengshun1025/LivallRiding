@@ -36,16 +36,16 @@
             android:enabled="true"
             android:process=":remote"></service>
 
-        <activity android:name=".Activity.LoginActivity"></activity>
-        <activity android:name=".Activity.MainActivity">
+        <activity android:name=".Demo.Activity.LoginActivity"></activity>
+        <activity android:name=".Demo.Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.BaiduMapActivity"></activity>
-        <activity android:name=".Activity.StopWatchActivity"></activity>
+        <activity android:name=".Demo.Activity.BaiduMapActivity"></activity>
+        <activity android:name=".Demo.Activity.StopWatchActivity"></activity>
     </application>
 
 </manifest>

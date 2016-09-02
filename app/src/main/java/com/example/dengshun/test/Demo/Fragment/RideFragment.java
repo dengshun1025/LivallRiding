@@ -1,4 +1,4 @@
-package Fragment;
+package com.example.dengshun.test.Demo.Fragment;
 
 
 import android.content.Intent;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.dengshun.test.Activity.BaiduMapActivity;
+import com.example.dengshun.test.Demo.Activity.BaiduMapActivity;
 import com.example.dengshun.test.R;
 
 /**

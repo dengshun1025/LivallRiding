@@ -1,4 +1,4 @@
-package com.example.dengshun.test.Activity;
+package com.example.dengshun.test.Demo.Activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -11,11 +11,11 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 import com.example.dengshun.test.R;
-import Fragment.ChallengeFragment;
-import Fragment.LaibaFragment;
-import Fragment.MessageFragment;
-import Fragment.MyFragment;
-import Fragment.RideFragment;
+import com.example.dengshun.test.Demo.Fragment.ChallengeFragment;
+import com.example.dengshun.test.Demo.Fragment.LaibaFragment;
+import com.example.dengshun.test.Demo.Fragment.MessageFragment;
+import com.example.dengshun.test.Demo.Fragment.MyFragment;
+import com.example.dengshun.test.Demo.Fragment.RideFragment;
 
 /**
  *  主要活动页面，下方是一个RadioGroup导航条，上方用来切换显示Fragment。

@@ -1,4 +1,4 @@
-package Fragment;
+package com.example.dengshun.test.Demo.Fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,14 +9,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.example.dengshun.test.Activity.LoginActivity;
+import com.example.dengshun.test.Demo.Activity.LoginActivity;
 import com.example.dengshun.test.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Adapter.MyListAdapter;
-import Adapter.MyListItem;
+import com.example.dengshun.test.Demo.Adapter.MyListAdapter;
+import com.example.dengshun.test.Demo.Adapter.MyListItem;
 
 /**
  *   个人中心。

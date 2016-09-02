@@ -1,4 +1,4 @@
-package Adapter;
+package com.example.dengshun.test.Demo.Adapter;
 
 /**
  *

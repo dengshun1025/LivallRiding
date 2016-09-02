@@ -1,4 +1,4 @@
-package com.example.dengshun.test.Activity;
+package com.example.dengshun.test.Demo.Activity;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -11,8 +11,9 @@ import android.widget.EditText;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.example.dengshun.test.R;
-import SQLite.SQLiteHelper;
+import com.example.dengshun.test.Demo.SQLite.SQLiteHelper;
 
 /**
  *  登录界面
