@@ -14,4 +14,11 @@
     <color name="lightBlue">#47dde8</color>
     <color name="my_login_bg">#88ffffff</color>
     <color name="radioGroupBackGround">#FFFEFEFE</color>
+    //路书
+    <color name="title_bg_color">#f9f9f9</color>
+    <color name="bg_normal_color">#eeeeee</color>
+    <color name="text_blue">#50d2fa</color>
+    <color name="text_normal">#333333</color>
+    <color name="text_gray">#999999</color>
+    <color name="line_gray">#cccccc</color>
 </resources>

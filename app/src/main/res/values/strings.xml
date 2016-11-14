@@ -44,4 +44,14 @@
     <string name="menu_add_friend">添加好友</string>
     <string name="menu_create_group">创建群组</string>
 
+
+    <string name="topbar_label_send">发送</string>
+    <string name="edit_track">编辑信息</string>
+    <string name="txt_edit_track">编辑路书轨迹</string>
+    <string name="txt_track_comment">发评论</string>
+    <string name="edit_track_comment">写内容......</string>
+    <string name="hint_track_content">我骑着马，不对，是车在向前走，啦啦啦啦啦啦啦啦啦~~~~~~</string>
+    <string name="delete_track">删除路书</string>
+    <string name="save_track">保存修改</string>
+
 </resources>

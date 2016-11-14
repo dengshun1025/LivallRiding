@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TableRow;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.dengshun.test.R;
 import com.example.dengshun.test.Demo.SQLite.SQLiteHelper;
@@ -60,17 +59,20 @@ public class LoginActivity extends Activity implements View.OnClickListener {
                 finish();
                 break;
             case R.id.btn_login:
-                mUserName = mUser.getText().toString().trim();
-                mPassWord = mPwd.getText().toString().trim();
-                mCursor = sqLiteDatabase.query("users",null,"username=? and password=?",new String[]{mUserName, mPassWord},null,null,null);
-                if (mCursor !=null&& mCursor.getCount()>0) {
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                    startActivity(intent);
-                    finish();
-                }else{
-                    Toast.makeText(LoginActivity.this,"用户名或密码错误！",Toast.LENGTH_SHORT).show();
-                }
+                Intent intent = new Intent(LoginActivity.this, EditLushuActivity.class);
+                startActivity(intent);
                 break;
+//                mUserName = mUser.getText().toString().trim();
+//                mPassWord = mPwd.getText().toString().trim();
+//                mCursor = sqLiteDatabase.query("users",null,"username=? and password=?",new String[]{mUserName, mPassWord},null,null,null);
+//                if (mCursor !=null&& mCursor.getCount()>0) {
+//                    Intent intent = new Intent(LoginActivity.this, EditLushuActivity.class);
+//                    startActivity(intent);
+//                    finish();
+//                }else{
+//                    Toast.makeText(LoginActivity.this,"用户名或密码错误！",Toast.LENGTH_SHORT).show();
+//                }
+//                break;
             case R.id.txt_email:
                 if(txtEmail.getText().toString().equals("邮箱登录")) {
                     tableRowOne.setVisibility(View.GONE);
