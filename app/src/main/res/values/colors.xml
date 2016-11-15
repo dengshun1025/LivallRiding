@@ -21,4 +21,6 @@
     <color name="text_normal">#333333</color>
     <color name="text_gray">#999999</color>
     <color name="line_gray">#cccccc</color>
+
+    <color name="transparent">#00000000</color>
 </resources>

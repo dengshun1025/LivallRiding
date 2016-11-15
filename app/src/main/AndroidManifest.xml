@@ -38,16 +38,16 @@
 
         <activity android:name=".Demo.Activity.LoginActivity" />
         <activity android:name=".Demo.Activity.MainActivity">
-
-        </activity>
-        <activity android:name=".Demo.Activity.BaiduMapActivity" />
-        <activity android:name=".Demo.Activity.StopWatchActivity" />
-        <activity android:name=".Demo.Activity.EditLushuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".Demo.Activity.BaiduMapActivity" />
+        <activity android:name=".Demo.Activity.StopWatchActivity" />
+        <activity android:name=".Demo.Activity.EditLushuActivity">
+
         </activity>
         <activity android:name=".Demo.Activity.LushuCommentActivity">
 
