@@ -10,13 +10,12 @@ import android.widget.Button;
 import android.widget.ListView;
 
 import com.example.dengshun.test.Demo.Activity.LoginActivity;
+import com.example.dengshun.test.Demo.Adapter.MyListAdapter;
+import com.example.dengshun.test.Demo.Adapter.MyListItem;
 import com.example.dengshun.test.R;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.example.dengshun.test.Demo.Adapter.MyListAdapter;
-import com.example.dengshun.test.Demo.Adapter.MyListItem;
 
 /**
  *   个人中心。
@@ -37,6 +36,7 @@ public class MyFragment extends Fragment{
         return inflater.inflate(R.layout.fragment_my, container, false);
     }
 
+    @Override
     public void onActivityCreated(Bundle savedInstanceState){
         super.onActivityCreated(savedInstanceState);
         myList.clear();

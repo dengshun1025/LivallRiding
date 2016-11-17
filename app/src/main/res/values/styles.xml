@@ -60,4 +60,10 @@
         <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>  //进入时的动画
         <item name="@android:windowExitAnimation">@anim/dialog_exit</item>    //退出时的动画
     </style>
+
+    <style name="horizontal_light_thin_divider">
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:background">@color/line_gray</item>
+    </style>
 </resources>

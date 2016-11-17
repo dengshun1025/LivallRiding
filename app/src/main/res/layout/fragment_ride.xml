@@ -24,8 +24,7 @@
         android:layout_marginBottom="@dimen/btn_riding_marginBottom"
         android:layout_marginStart="@dimen/btn_riding_paddingLeft"
         android:layout_marginEnd="@dimen/btn_riding_paddingRight"
-        android:layout_marginLeft="@dimen/btn_riding_paddingLeft"
-        android:layout_marginRight="@dimen/btn_riding_paddingRight"
+        android:background="@color/blue"
         android:layout_width="match_parent"
         android:layout_height="@dimen/btn_riding_height" />
 
